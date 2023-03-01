@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 
 @Getter
 @Setter
-@Document
+@Document(collection = "reviews")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Review {
